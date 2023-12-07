@@ -2,7 +2,7 @@
 
 # CMPS 2200 Assignment 1
 
-**Name:**_________________________
+**Name:**_________zoe ________________
 
 
 In this assignment, you will learn more about asymptotic notation, parallelism, functional languages, and algorithmic cost models. As in the recitation, some of your answers will go here and some will go in `main.py`. You are welcome to edit this `assignment-01.md` file directly, or print and fill in by hand. If you do the latter, please scan to a file `assignment-01.pdf` and push to your GitHub repository. 
@@ -12,8 +12,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 1. (2 pts ea) **Asymptotic notation** (12 pts)
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
-.  no 2^2(n-1 is not in O(2^n). the O(n) shows the upper bound of the function. 2^(n+1) If you expand this it comes back 2^(n) *2. with this we can see that 2&n grows at a slower rate than 2^(n+1) 
-.  
+true since 2n^n+1 = 2 *2^n pick c ?= and n(0) = 0.  
 .  
 .  
 . 
@@ -40,8 +39,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 .  
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  no the square root of n is not in omega log n)^3)  like before the square root has a slkower growth ratre than the log. setting the limit of the ratio of both of then to infininty allows us to demonstrate the slower rate of growth 
-
+Yes from the prevois question 
 
 2. **SPARC to Python** (12 pts)
 
